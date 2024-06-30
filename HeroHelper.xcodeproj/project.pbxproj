@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5C46482C2F4883008184F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46472C2F4883008184F4 /* AppDelegate.swift */; };
+		EF5C464A2C2F4883008184F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46492C2F4883008184F4 /* SceneDelegate.swift */; };
+		EF5C464C2C2F4883008184F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C464B2C2F4883008184F4 /* ViewController.swift */; };
+		EF5C464F2C2F4883008184F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF5C464E2C2F4883008184F4 /* Base */; };
+		EF5C46512C2F4887008184F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5C46502C2F4887008184F4 /* Assets.xcassets */; };
+		EF5C46542C2F4887008184F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF5C46532C2F4887008184F4 /* Base */; };
+		EF5C465F2C2F4888008184F4 /* HeroHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C465E2C2F4888008184F4 /* HeroHelperTests.swift */; };
+		EF5C46692C2F4888008184F4 /* HeroHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46682C2F4888008184F4 /* HeroHelperUITests.swift */; };
+		EF5C466B2C2F4888008184F4 /* HeroHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C466A2C2F4888008184F4 /* HeroHelperUITestsLaunchTests.swift */; };
+		EF5C46782C2F48C9008184F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF5C46772C2F48C9008184F4 /* GoogleService-Info.plist */; };
+		EF5C467B2C2F4935008184F4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C467A2C2F4935008184F4 /* FirebaseAnalytics */; };
+		EF5C467D2C2F4935008184F4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C467C2C2F4935008184F4 /* FirebaseAuth */; };
+		EF5C467F2C2F4935008184F4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C467E2C2F4935008184F4 /* FirebaseAuthCombine-Community */; };
+		EF5C46812C2F4935008184F4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46802C2F4935008184F4 /* FirebaseDatabase */; };
+		EF5C46832C2F4935008184F4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46822C2F4935008184F4 /* FirebaseFirestore */; };
+		EF5C46852C2F4935008184F4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46842C2F4935008184F4 /* FirebaseStorage */; };
+		EF5C46882C2F49D0008184F4 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46872C2F49D0008184F4 /* GoogleSignIn */; };
+		EF5C468A2C2F49D0008184F4 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46892C2F49D0008184F4 /* GoogleSignInSwift */; };
+		EF5C468C2C2F4B06008184F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C468B2C2F4B06008184F4 /* LoginViewController.swift */; };
+		EF5C468E2C2F4B53008184F4 /* HealthFAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C468D2C2F4B53008184F4 /* HealthFAQViewController.swift */; };
+		EF5C46902C2F4B7E008184F4 /* EquipmentFAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C468F2C2F4B7E008184F4 /* EquipmentFAQViewController.swift */; };
+		EF5C46922C2F5072008184F4 /* FAQTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46912C2F5072008184F4 /* FAQTableCell.swift */; };
+		EF5C46942C2F50B3008184F4 /* TipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46932C2F50B3008184F4 /* TipTableViewCell.swift */; };
+		EF5C46962C2F5140008184F4 /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C46952C2F5140008184F4 /* DoctorViewController.swift */; };
+		EF5C46992C2F56F3008184F4 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = EF5C46982C2F56F3008184F4 /* GoogleGenerativeAI */; };
+		EF5C469B2C2F6707008184F4 /* EquipmentTroubleshootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C469A2C2F6707008184F4 /* EquipmentTroubleshootingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5C465B2C2F4888008184F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5C463C2C2F4883008184F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5C46432C2F4883008184F4;
+			remoteInfo = HeroHelper;
+		};
+		EF5C46652C2F4888008184F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5C463C2C2F4883008184F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5C46432C2F4883008184F4;
+			remoteInfo = HeroHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5C46442C2F4883008184F4 /* HeroHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C46472C2F4883008184F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF5C46492C2F4883008184F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF5C464B2C2F4883008184F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5C464E2C2F4883008184F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5C46502C2F4887008184F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5C46532C2F4887008184F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5C46552C2F4887008184F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5C465A2C2F4888008184F4 /* HeroHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C465E2C2F4888008184F4 /* HeroHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHelperTests.swift; sourceTree = "<group>"; };
+		EF5C46642C2F4888008184F4 /* HeroHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C46682C2F4888008184F4 /* HeroHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHelperUITests.swift; sourceTree = "<group>"; };
+		EF5C466A2C2F4888008184F4 /* HeroHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF5C46772C2F48C9008184F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF5C468B2C2F4B06008184F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF5C468D2C2F4B53008184F4 /* HealthFAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFAQViewController.swift; sourceTree = "<group>"; };
+		EF5C468F2C2F4B7E008184F4 /* EquipmentFAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentFAQViewController.swift; sourceTree = "<group>"; };
+		EF5C46912C2F5072008184F4 /* FAQTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableCell.swift; sourceTree = "<group>"; };
+		EF5C46932C2F50B3008184F4 /* TipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTableViewCell.swift; sourceTree = "<group>"; };
+		EF5C46952C2F5140008184F4 /* DoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
+		EF5C469A2C2F6707008184F4 /* EquipmentTroubleshootingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTroubleshootingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5C46412C2F4883008184F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C467B2C2F4935008184F4 /* FirebaseAnalytics in Frameworks */,
+				EF5C467F2C2F4935008184F4 /* FirebaseAuthCombine-Community in Frameworks */,
+				EF5C46812C2F4935008184F4 /* FirebaseDatabase in Frameworks */,
+				EF5C468A2C2F49D0008184F4 /* GoogleSignInSwift in Frameworks */,
+				EF5C46832C2F4935008184F4 /* FirebaseFirestore in Frameworks */,
+				EF5C467D2C2F4935008184F4 /* FirebaseAuth in Frameworks */,
+				EF5C46992C2F56F3008184F4 /* GoogleGenerativeAI in Frameworks */,
+				EF5C46852C2F4935008184F4 /* FirebaseStorage in Frameworks */,
+				EF5C46882C2F49D0008184F4 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46572C2F4888008184F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46612C2F4888008184F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5C463B2C2F4883008184F4 = {
+			isa = PBXGroup;
+			children = (
+				EF5C46462C2F4883008184F4 /* HeroHelper */,
+				EF5C465D2C2F4888008184F4 /* HeroHelperTests */,
+				EF5C46672C2F4888008184F4 /* HeroHelperUITests */,
+				EF5C46452C2F4883008184F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5C46452C2F4883008184F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C46442C2F4883008184F4 /* HeroHelper.app */,
+				EF5C465A2C2F4888008184F4 /* HeroHelperTests.xctest */,
+				EF5C46642C2F4888008184F4 /* HeroHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5C46462C2F4883008184F4 /* HeroHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C46472C2F4883008184F4 /* AppDelegate.swift */,
+				EF5C46492C2F4883008184F4 /* SceneDelegate.swift */,
+				EF5C464B2C2F4883008184F4 /* ViewController.swift */,
+				EF5C468B2C2F4B06008184F4 /* LoginViewController.swift */,
+				EF5C46912C2F5072008184F4 /* FAQTableCell.swift */,
+				EF5C468D2C2F4B53008184F4 /* HealthFAQViewController.swift */,
+				EF5C46952C2F5140008184F4 /* DoctorViewController.swift */,
+				EF5C468F2C2F4B7E008184F4 /* EquipmentFAQViewController.swift */,
+				EF5C46932C2F50B3008184F4 /* TipTableViewCell.swift */,
+				EF5C469A2C2F6707008184F4 /* EquipmentTroubleshootingViewController.swift */,
+				EF5C464D2C2F4883008184F4 /* Main.storyboard */,
+				EF5C46502C2F4887008184F4 /* Assets.xcassets */,
+				EF5C46522C2F4887008184F4 /* LaunchScreen.storyboard */,
+				EF5C46552C2F4887008184F4 /* Info.plist */,
+				EF5C46772C2F48C9008184F4 /* GoogleService-Info.plist */,
+			);
+			path = HeroHelper;
+			sourceTree = "<group>";
+		};
+		EF5C465D2C2F4888008184F4 /* HeroHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C465E2C2F4888008184F4 /* HeroHelperTests.swift */,
+			);
+			path = HeroHelperTests;
+			sourceTree = "<group>";
+		};
+		EF5C46672C2F4888008184F4 /* HeroHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C46682C2F4888008184F4 /* HeroHelperUITests.swift */,
+				EF5C466A2C2F4888008184F4 /* HeroHelperUITestsLaunchTests.swift */,
+			);
+			path = HeroHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5C46432C2F4883008184F4 /* HeroHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C466E2C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelper" */;
+			buildPhases = (
+				EF5C46402C2F4883008184F4 /* Sources */,
+				EF5C46412C2F4883008184F4 /* Frameworks */,
+				EF5C46422C2F4883008184F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroHelper;
+			packageProductDependencies = (
+				EF5C467A2C2F4935008184F4 /* FirebaseAnalytics */,
+				EF5C467C2C2F4935008184F4 /* FirebaseAuth */,
+				EF5C467E2C2F4935008184F4 /* FirebaseAuthCombine-Community */,
+				EF5C46802C2F4935008184F4 /* FirebaseDatabase */,
+				EF5C46822C2F4935008184F4 /* FirebaseFirestore */,
+				EF5C46842C2F4935008184F4 /* FirebaseStorage */,
+				EF5C46872C2F49D0008184F4 /* GoogleSignIn */,
+				EF5C46892C2F49D0008184F4 /* GoogleSignInSwift */,
+				EF5C46982C2F56F3008184F4 /* GoogleGenerativeAI */,
+			);
+			productName = HeroHelper;
+			productReference = EF5C46442C2F4883008184F4 /* HeroHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5C46592C2F4888008184F4 /* HeroHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C46712C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelperTests" */;
+			buildPhases = (
+				EF5C46562C2F4888008184F4 /* Sources */,
+				EF5C46572C2F4888008184F4 /* Frameworks */,
+				EF5C46582C2F4888008184F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5C465C2C2F4888008184F4 /* PBXTargetDependency */,
+			);
+			name = HeroHelperTests;
+			productName = HeroHelperTests;
+			productReference = EF5C465A2C2F4888008184F4 /* HeroHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5C46632C2F4888008184F4 /* HeroHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C46742C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelperUITests" */;
+			buildPhases = (
+				EF5C46602C2F4888008184F4 /* Sources */,
+				EF5C46612C2F4888008184F4 /* Frameworks */,
+				EF5C46622C2F4888008184F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5C46662C2F4888008184F4 /* PBXTargetDependency */,
+			);
+			name = HeroHelperUITests;
+			productName = HeroHelperUITests;
+			productReference = EF5C46642C2F4888008184F4 /* HeroHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5C463C2C2F4883008184F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EF5C46432C2F4883008184F4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EF5C46592C2F4888008184F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF5C46432C2F4883008184F4;
+					};
+					EF5C46632C2F4888008184F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF5C46432C2F4883008184F4;
+					};
+				};
+			};
+			buildConfigurationList = EF5C463F2C2F4883008184F4 /* Build configuration list for PBXProject "HeroHelper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5C463B2C2F4883008184F4;
+			packageReferences = (
+				EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EF5C46862C2F49D0008184F4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				EF5C46972C2F56F3008184F4 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = EF5C46452C2F4883008184F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5C46432C2F4883008184F4 /* HeroHelper */,
+				EF5C46592C2F4888008184F4 /* HeroHelperTests */,
+				EF5C46632C2F4888008184F4 /* HeroHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5C46422C2F4883008184F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C46512C2F4887008184F4 /* Assets.xcassets in Resources */,
+				EF5C46782C2F48C9008184F4 /* GoogleService-Info.plist in Resources */,
+				EF5C46542C2F4887008184F4 /* Base in Resources */,
+				EF5C464F2C2F4883008184F4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46582C2F4888008184F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46622C2F4888008184F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5C46402C2F4883008184F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C46902C2F4B7E008184F4 /* EquipmentFAQViewController.swift in Sources */,
+				EF5C46942C2F50B3008184F4 /* TipTableViewCell.swift in Sources */,
+				EF5C469B2C2F6707008184F4 /* EquipmentTroubleshootingViewController.swift in Sources */,
+				EF5C46962C2F5140008184F4 /* DoctorViewController.swift in Sources */,
+				EF5C46922C2F5072008184F4 /* FAQTableCell.swift in Sources */,
+				EF5C464C2C2F4883008184F4 /* ViewController.swift in Sources */,
+				EF5C468C2C2F4B06008184F4 /* LoginViewController.swift in Sources */,
+				EF5C46482C2F4883008184F4 /* AppDelegate.swift in Sources */,
+				EF5C464A2C2F4883008184F4 /* SceneDelegate.swift in Sources */,
+				EF5C468E2C2F4B53008184F4 /* HealthFAQViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46562C2F4888008184F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C465F2C2F4888008184F4 /* HeroHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C46602C2F4888008184F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C466B2C2F4888008184F4 /* HeroHelperUITestsLaunchTests.swift in Sources */,
+				EF5C46692C2F4888008184F4 /* HeroHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5C465C2C2F4888008184F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5C46432C2F4883008184F4 /* HeroHelper */;
+			targetProxy = EF5C465B2C2F4888008184F4 /* PBXContainerItemProxy */;
+		};
+		EF5C46662C2F4888008184F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5C46432C2F4883008184F4 /* HeroHelper */;
+			targetProxy = EF5C46652C2F4888008184F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5C464D2C2F4883008184F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5C464E2C2F4883008184F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5C46522C2F4887008184F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5C46532C2F4887008184F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5C466C2C2F4888008184F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF5C466D2C2F4888008184F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5C466F2C2F4888008184F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5C46702C2F4888008184F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF5C46722C2F4888008184F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroHelper";
+			};
+			name = Debug;
+		};
+		EF5C46732C2F4888008184F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroHelper";
+			};
+			name = Release;
+		};
+		EF5C46752C2F4888008184F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroHelper;
+			};
+			name = Debug;
+		};
+		EF5C46762C2F4888008184F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumit.HeroHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5C463F2C2F4883008184F4 /* Build configuration list for PBXProject "HeroHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C466C2C2F4888008184F4 /* Debug */,
+				EF5C466D2C2F4888008184F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5C466E2C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C466F2C2F4888008184F4 /* Debug */,
+				EF5C46702C2F4888008184F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5C46712C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C46722C2F4888008184F4 /* Debug */,
+				EF5C46732C2F4888008184F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5C46742C2F4888008184F4 /* Build configuration list for PBXNativeTarget "HeroHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C46752C2F4888008184F4 /* Debug */,
+				EF5C46762C2F4888008184F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+		EF5C46862C2F49D0008184F4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		EF5C46972C2F56F3008184F4 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF5C467A2C2F4935008184F4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EF5C467C2C2F4935008184F4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EF5C467E2C2F4935008184F4 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		EF5C46802C2F4935008184F4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		EF5C46822C2F4935008184F4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EF5C46842C2F4935008184F4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46792C2F4935008184F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EF5C46872C2F49D0008184F4 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46862C2F49D0008184F4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		EF5C46892C2F49D0008184F4 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46862C2F49D0008184F4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		EF5C46982C2F56F3008184F4 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF5C46972C2F56F3008184F4 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF5C463C2C2F4883008184F4 /* Project object */;
+}
