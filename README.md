@@ -2,10 +2,10 @@
 
 HeroHelper is an iOS application built with Swift and UIKit, designed to assist frontline workers with health-related FAQs and equipment troubleshooting tips.
 
-## Features
+## Features 
 
 - **Firebase Authentication**
-  - Users can log in using email/password or Google Sign-In.
+  - Users can log in using email/password.
 
 - **Bottom Navigation Tabs**
   - **Health FAQ**
